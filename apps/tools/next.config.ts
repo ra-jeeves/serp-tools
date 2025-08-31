@@ -7,7 +7,7 @@ export default (phase: string) => {
    */
   const nextConfig = {
     output: 'export',
-    basePath: '/files',
+    basePath: '/tools',
     transpilePackages: ["@serp-tools/ui"],
     trailingSlash: true,
     assetPrefix: isDev ? undefined : 'https://ra-jeeves.github.io/serp-tools',
