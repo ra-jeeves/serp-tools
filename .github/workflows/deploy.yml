@@ -44,8 +44,6 @@ jobs:
           cp -r apps/files/out/* _site/files/
           # Add a .nojekyll file to the root of the site to prevent Jekyll from running
           touch _site/.nojekyll
-          touch _site/tools/.nojekyll
-          touch _site/files/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
