@@ -4,7 +4,7 @@ const nextConfig = {
   basePath: '/tools',
   transpilePackages: ["@serp-tools/ui"],
   trailingSlash: true,
-  assetPrefix: '/serp-tools',
+  assetPrefix: '/serp-tools/tools',
 };
 
 export default nextConfig;
